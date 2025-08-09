@@ -17,6 +17,48 @@
               "function": "minecraft:set_count"
             },
             {
+              "function": "set_count",
+              "add": true,
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"inflated_stage_1\"]}"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "add": true,
+              "count": 1,
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"inflated_stage_2\"]}"
+                  }
+                }
+              ]
+            },
+            {
+              "function": "set_count",
+              "add": true,
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{Tags:[\"inflated_stage_3\"]}"
+                  }
+                }
+              ]
+            },
+            {
               "count": {
                 "type": "minecraft:uniform",
                 "max": 1.0,
