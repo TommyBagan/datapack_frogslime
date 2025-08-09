@@ -1,6 +1,8 @@
 {
     "values": [
-        "#frogslime:spiders"
+        "#frogslime:spiders",
+        "minecraft:endermite",
+        "minecraft:silverfish"
     ],
     "replace": false
 }
