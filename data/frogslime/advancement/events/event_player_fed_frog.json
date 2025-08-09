@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "frog_eats_fermented_eye": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:frog"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:fermented_spider_eye"
+                    ]
+                }
+            }
+        }
+        
+    },
+    "rewards": {
+        "function": "frogslime:mechanics/when_player_fed_frog"
+    },
+    "sends_telemetry_event": false
+}
