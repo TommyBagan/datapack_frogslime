@@ -6,3 +6,4 @@ effect give @s levitation 1 1 true
 
 # Additional, purely for bubble effect
 effect give @s minecraft:water_breathing infinite 1 false
+effect give @s minecraft:slow_falling infinite 1 true
