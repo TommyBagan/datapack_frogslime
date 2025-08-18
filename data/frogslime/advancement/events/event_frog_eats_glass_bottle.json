@@ -8,7 +8,7 @@
                 },
                 "item": {
                     "items": [
-                        "minecraft:fermented_spider_eye"
+                        "minecraft:glass_bottle"
                     ]
                 }
             }
@@ -16,7 +16,7 @@
         
     },
     "rewards": {
-        "function": "frogslime:mechanics/when_player_fed_frog"
+        "function": "frogslime:mechanics/when_frog_eats_glass_bottle"
     },
     "sends_telemetry_event": false
 }

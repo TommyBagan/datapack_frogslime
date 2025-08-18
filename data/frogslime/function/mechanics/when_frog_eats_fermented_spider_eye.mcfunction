@@ -1,5 +1,5 @@
 # Resets the event
-advancement revoke @s only frogslime:events/event_player_fed_frog
+advancement revoke @s only frogslime:events/event_frog_eats_fermented_spider_eye
 
 # Uses the InLove magic NBT number to identify the most recently fed frog.
 # Very unlikely this causes the wrong frog to be targetted, given a player can only feed

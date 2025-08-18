@@ -1,7 +1,8 @@
 {
     "values": [
         "spider_eye",
-        "fermented_spider_eye"
+        "fermented_spider_eye",
+        "glass_bottle"
     ],
     "replace": true
 }
