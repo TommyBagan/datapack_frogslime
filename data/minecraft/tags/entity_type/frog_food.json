@@ -2,7 +2,8 @@
     "values": [
         "#frogslime:spiders",
         "minecraft:endermite",
-        "minecraft:silverfish"
+        "minecraft:silverfish",
+        "minecraft:bee"
     ],
     "replace": false
 }
