@@ -8,7 +8,7 @@ execute if score @s frogslime.burp_time matches 2.. run return run function frog
 playsound entity.player.burp neutral @a[distance=..10] ~ ~ ~ 0.5 1.4
 
 # Summon the item
-summon item ^ ^ ^ {Item:{id:"minecraft:potion",count:1,components:{"minecraft:potion_contents":{potion:"minecraft:oozing"}}}}
+execute anchored eyes run loot spawn ^ ^ ^ loot frogslime:potion
 
 # Sets the cooldown
 scoreboard players set @s frogslime.burp_time 60
