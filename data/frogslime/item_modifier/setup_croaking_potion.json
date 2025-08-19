@@ -1,0 +1,399 @@
+{
+    "function": "sequence",
+    "functions": [
+        {
+            "function": "set_item",
+            "item": "minecraft:potion"
+        },
+        {
+            "function": "set_name",
+            "name": {
+                "translate": "item.frogslime.potion_of_croaking",
+                "fallback": "Potion of Croaking",
+                "italic": false
+            }
+        },
+        {
+            "function": "copy_custom_data",
+            "source": "this",
+            "ops": [
+                {
+                    "op": "replace",
+                    "source": "variant",
+                    "target": "variant"
+                },
+                {
+                    "op": "replace",
+                    "source": "Tags",
+                    "target": "tags"
+                }
+            ]
+        },
+        {
+            "function": "filtered",
+            "item_filter": {
+                "predicates": {
+                    "custom_data": {
+                        "tags": [
+                            "inflated_stage_1"
+                        ]
+                    }
+                }
+            },
+            "modifier": {
+                "function": "sequence",
+                "functions": [
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:cold"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 5284866,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 1200,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:temperate"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 12473863,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 1200,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:warm"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 10263708,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 1200,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 1200,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "filtered",
+            "item_filter": {
+                "predicates": {
+                    "custom_data": {
+                        "tags": [
+                            "inflated_stage_2"
+                        ]
+                    }
+                }
+            },
+            "modifier": {
+                "function": "sequence",
+                "functions": [
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:cold"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 5284866,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 3000,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:temperate"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 12473863,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 3000,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:warm"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 10263708,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 3000,
+                                            "amplifier": 2
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 3000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "function": "filtered",
+            "item_filter": {
+                "predicates": {
+                    "custom_data": {
+                        "tags": [
+                            "inflated_stage_3"
+                        ]
+                    }
+                }
+            },
+            "modifier": {
+                "function": "sequence",
+                "functions": [
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:cold"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 5284866,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 6000,
+                                            "amplifier": 3
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:temperate"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 12473863,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 6000,
+                                            "amplifier": 3
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    },
+                    {
+                        "function": "filtered",
+                        "item_filter": {
+                            "predicates": {
+                                "custom_data": {
+                                    "variant": "minecraft:warm"
+                                }
+                            }
+                        },
+                        "modifier": {
+                            "function": "set_components",
+                            "components": {
+                                "potion_contents": {
+                                    "custom_color": 10263708,
+                                    "custom_effects": [
+                                        {
+                                            "id": "minecraft:jump_boost",
+                                            "duration": 6000,
+                                            "amplifier": 3
+                                        },
+                                        {
+                                            "id": "minecraft:oozing",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        },
+                                        {
+                                            "id": "minecraft:night_vision",
+                                            "duration": 6000,
+                                            "amplifier": 1
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

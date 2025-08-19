@@ -4,4 +4,4 @@ advancement revoke @s only frogslime:events/event_frog_eats_fermented_spider_eye
 # Uses the InLove magic NBT number to identify the most recently fed frog.
 # Very unlikely this causes the wrong frog to be targetted, given a player can only feed
 # one frog at a time.
-execute as @n[type=minecraft:frog,nbt={InLove:600}] run function frogslime:mechanics/grow_frog
+execute as @n[type=minecraft:frog,nbt={InLove:600}] at @s run function frogslime:mechanics/grow_frog
