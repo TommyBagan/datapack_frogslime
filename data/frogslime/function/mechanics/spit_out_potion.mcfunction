@@ -13,3 +13,18 @@ scoreboard players set @s frogslime.burp_time 60
 # Summon the item
 execute unless predicate frogslime:is_frog_inflated run return run execute anchored eyes run loot spawn ^ ^ ^ loot frogslime:awkward_potion
 execute anchored eyes run loot spawn ^ ^ ^ loot frogslime:croaking_potion
+
+# We now deflate, so remove tags
+tag @s remove inflated_stage_1
+tag @s remove inflated_stage_2
+tag @s remove inflated_stage_3
+
+# Remove attributes
+attribute @s scale modifier remove frogslime:inflated_stage_1
+attribute @s scale modifier remove frogslime:inflated_stage_2
+attribute @s scale modifier remove frogslime:inflated_stage_3
+attribute @s gravity modifier remove frogslime:inflated
+
+# Clears effects
+effect clear @s minecraft:water_breathing
+effect clear @s minecraft:levitation

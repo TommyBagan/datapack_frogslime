@@ -11,13 +11,14 @@ This datapack changes some basic elements of how Frogs work in minecraft:
 - Frogs inflate when being fed a fermented spider eye, and when inflated drop more slime balls.
 - Frogs can now also eat spiders, cave spiders, silverfish, bees and endermites.
 - Be careful - super inflated frogs can pop!
+- To deflate frogs, players can use glass bottles on inflated frogs, and receive a `Potion of Croaking`, which grants the user jump boost; night vision and water breathing. The more inflated the frog, the stronger the potion they drop!
+- Take care of your frogs - a frog will vomit if you make them barf into bottles too often.
 
 ## Roadmap
 
 If there's enough interest, here are some potential future features:
 
 - Some advancements!
-- Players can use glass bottles on frogs, and receive a potion of oozing or jump boost. Inflated frogs give the drop potions of levitation or jump boost II potions.
 - Cold frogs drop more slimeballs.
 - Frogs can be crowned princes.
 - Different colours of slime balls are dropped dependent on the variant.
