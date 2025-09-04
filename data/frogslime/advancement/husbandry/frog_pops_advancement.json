@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "floating": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.frogslime.husbandry.pop",
+            "fallback": "Pop an inflated frog"
+        },
+        "title": {
+            "translate": "advancement.frogslime.husbandry.pop.title",
+            "fallback": "Pop goes the Weasel"
+        },
+        "frame": "task",
+        "icon": {
+            "id": "pufferfish"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "rewards": {
+        "experience": 50
+    },
+    "parent": "frogslime:husbandry/frog_floats_advancement",
+    "sends_telemetry_event": true
+}

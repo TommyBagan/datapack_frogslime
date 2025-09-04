@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "floating": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.frogslime.husbandry.vomit",
+            "fallback": "Make a frog vomit"
+        },
+        "title": {
+            "translate": "advancement.frogslime.husbandry.vomit.title",
+            "fallback": "BLAGH"
+        },
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:slime_spawn_egg",
+            "components": {
+                "potion_contents": {
+                    "custom_color": 5284866
+                }
+            }
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "frogslime:husbandry/frog_potion_of_croaking_advancement",
+    "sends_telemetry_event": true
+}

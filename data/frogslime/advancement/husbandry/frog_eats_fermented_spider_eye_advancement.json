@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "frog_eats_fermented_eye": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:frog"
+                },
+                "item": {
+                    "items": [
+                        "minecraft:fermented_spider_eye"
+                    ]
+                }
+            }
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.frogslime.husbandry.deep_breath",
+            "fallback": "Feed a frog a fermented spider eye"
+        },
+        "title": {
+            "translate": "advancement.frogslime.husbandry.deep_breath.title",
+            "fallback": "Deep Breath"
+        },
+        "frame": "task",
+        "icon": {
+            "id": "fermented_spider_eye"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "minecraft:husbandry/root",
+    "sends_telemetry_event": true
+}

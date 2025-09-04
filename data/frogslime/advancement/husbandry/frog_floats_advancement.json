@@ -1,0 +1,28 @@
+{
+    "criteria": {
+        "floating": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.frogslime.husbandry.inflated_max",
+            "fallback": "Inflate frog 3 times"
+        },
+        "title": {
+            "translate": "advancement.frogslime.husbandry.inflated_max.title",
+            "fallback": "Oo that brother's floating in the air"
+        },
+        "frame": "task",
+        "icon": {
+            "id": "feather"
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "rewards": {
+        "experience": 20
+    },
+    "parent": "frogslime:husbandry/frog_eats_fermented_spider_eye_advancement",
+    "sends_telemetry_event": true
+}

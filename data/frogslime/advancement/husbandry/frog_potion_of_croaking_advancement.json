@@ -1,0 +1,33 @@
+{
+    "criteria": {
+        "floating": {
+            "trigger": "impossible"
+        }
+    },
+    "display": {
+        "description": {
+            "translate": "advancement.frogslime.husbandry.potion_of_croaking",
+            "fallback": "Obtain a potion of croaking"
+        },
+        "title": {
+            "translate": "advancement.frogslime.husbandry.potion_of_croaking.title",
+            "fallback": "Sipping on some Sizzurp"
+        },
+        "frame": "task",
+        "icon": {
+            "id": "minecraft:potion",
+            "components": {
+                "potion_contents": {
+                    "custom_color": 5284866
+                }
+            }
+        },
+        "show_toast": true,
+        "announce_to_chat": true
+    },
+    "rewards": {
+        "experience": 15
+    },
+    "parent": "frogslime:husbandry/frog_eats_fermented_spider_eye_advancement",
+    "sends_telemetry_event": true
+}
