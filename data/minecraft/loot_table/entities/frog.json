@@ -66,6 +66,20 @@
               },
               "enchantment": "minecraft:looting",
               "function": "minecraft:enchanted_count_increase"
+            },
+            {
+              "function": "set_count",
+              "add": true,
+              "count": 2,
+              "conditions": [
+                {
+                  "condition": "entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "nbt": "{variant:\"minecraft:cold\"}"
+                  }
+                }
+              ]
             }
           ],
           "name": "minecraft:slime_ball"
